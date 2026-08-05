@@ -45,11 +45,16 @@ body, .md-typeset, .md-header, .md-nav, .md-tabs {
 }
 
 /* Sections should collapse/expand on click like a normal accordion —
- * navigation.expand instead pins every section permanently open
- * (unconditional `display:block`, ignoring the toggle checkbox), which
- * is why clicking a Faculty Handbook / Orientation section did nothing.
- * Re-implement the standard checkbox-driven show/hide so the toggle
- * actually works again, at every width `navigation.expand` touches. */
+ * navigation.expand instead pins every section permanently open two
+ * ways: an unconditional `display:block` rule, and by baking a
+ * `.md-toggle--indeterminate` class onto every section's toggle at
+ * build time (not just the active path), which Material's own CSS also
+ * treats as "expanded" regardless of the checkbox. That combination is
+ * why clicking a Faculty Handbook / Orientation section did nothing.
+ * Re-implement checkbox-driven show/hide keyed on `:checked` alone —
+ * genuinely active-path ancestors get a real `checked` attribute at
+ * build time, so they still auto-expand on load; everything else
+ * starts collapsed and responds to clicks like a normal accordion. */
 .md-nav__item--section > .md-nav__toggle ~ .md-nav,
 .md-nav__item--nested > .md-nav__toggle ~ .md-nav {
   display: grid !important;
@@ -58,9 +63,7 @@ body, .md-typeset, .md-header, .md-nav, .md-tabs {
   visibility: collapse !important;
 }
 .md-nav__item--section > .md-nav__toggle:checked ~ .md-nav,
-.md-nav__item--section > .md-nav__toggle.md-toggle--indeterminate ~ .md-nav,
-.md-nav__item--nested > .md-nav__toggle:checked ~ .md-nav,
-.md-nav__item--nested > .md-nav__toggle.md-toggle--indeterminate ~ .md-nav {
+.md-nav__item--nested > .md-nav__toggle:checked ~ .md-nav {
   grid-template-rows: minmax(0.4rem, 1fr) !important;
   opacity: 1 !important;
   visibility: visible !important;
