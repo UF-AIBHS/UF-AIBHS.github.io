@@ -111,4 +111,24 @@ body, .md-typeset, .md-header, .md-nav, .md-tabs {
 .md-nav--lifted > .md-nav__title {
   display: block !important;
 }
+
+/* Shrink the footer — the default prev/next card row's generous margins,
+ * title font-size, and copyright padding made it read as an oversized
+ * block relative to the rest of the page. */
+.md-footer__link {
+  margin-top: 0.4rem;
+  margin-bottom: 0.2rem;
+}
+.md-footer__title {
+  font-size: 0.76rem;
+  margin-bottom: 0.3rem;
+}
+.md-footer__button svg {
+  width: 0.9rem;
+  height: 0.9rem;
+}
+.md-copyright {
+  font-size: 0.6rem;
+  padding: 0.25rem 0;
+}
 EOF
