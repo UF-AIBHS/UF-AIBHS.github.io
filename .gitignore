@@ -29,8 +29,8 @@ $RECYCLE.BIN/
 # This tool's own files
 .claude/
 
-# Jekyll (site build, regenerate with: bundle exec jekyll build)
+# marimo-book (site build, regenerate with: marimo-book build)
 _site/
-.jekyll-cache/
-.bundle/
-vendor/
+_site_src/
+.marimo_book_cache/
+__pycache__/
