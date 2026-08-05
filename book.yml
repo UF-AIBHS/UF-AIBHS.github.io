@@ -32,9 +32,69 @@ toc:
     title: HiPerGator
   - section: Documents
     children:
-      - file: content/documents/faculty-handbook.md
-        title: Faculty Handbook
-      - file: content/documents/orientation.md
-        title: Orientation
+      - section: Faculty Handbook
+        children:
+          - file: content/documents/faculty-handbook/index.md
+            title: Overview
+          - file: content/documents/faculty-handbook/introduction.md
+            title: Introduction to UF AIBHS
+          - file: content/documents/faculty-handbook/program-structure.md
+            title: Program Structure
+          - file: content/documents/faculty-handbook/onboarding.md
+            title: Onboarding
+          - section: Canvas
+            children:
+              - file: content/documents/faculty-handbook/canvas.md
+                title: Overview
+              - file: content/documents/faculty-handbook/canvas-adding-tas.md
+                title: Adding TAs to Canvas
+          - section: Student Accommodations
+            children:
+              - file: content/documents/faculty-handbook/student-accommodations-drc.md
+                title: Disability Resource Center
+              - file: content/documents/faculty-handbook/student-accommodations-extra-time.md
+                title: Providing Extra Time on Assignments
+              - file: content/documents/faculty-handbook/student-accommodations-deadline-extensions.md
+                title: Deadline Extensions
+          - section: Student Engagement
+            children:
+              - file: content/documents/faculty-handbook/student-engagement-office-hours.md
+                title: Office Hours
+              - file: content/documents/faculty-handbook/student-engagement-communication.md
+                title: Communication
+          - section: Semester Timeline
+            children:
+              - file: content/documents/faculty-handbook/semester-timeline-pre-semester.md
+                title: Pre-Semester
+              - file: content/documents/faculty-handbook/semester-timeline-mid-semester.md
+                title: Mid-Semester
+              - file: content/documents/faculty-handbook/semester-timeline-end-semester.md
+                title: End-Semester
+          - section: Important Dates and Policies
+            children:
+              - file: content/documents/faculty-handbook/important-dates-academic-calendar.md
+                title: Academic Calendar
+              - file: content/documents/faculty-handbook/important-dates-add-drop.md
+                title: Add Drop
+              - file: content/documents/faculty-handbook/important-dates-religious-holidays.md
+                title: Religious Holidays
+              - file: content/documents/faculty-handbook/important-dates-reading-days.md
+                title: Reading Days
+          - file: content/documents/faculty-handbook/working-reference.md
+            title: Working Reference (Word doc)
+      - section: Orientation
+        children:
+          - file: content/documents/orientation/index.md
+            title: Overview
+          - file: content/documents/orientation/locations.md
+            title: Locations
+          - file: content/documents/orientation/purpose.md
+            title: Purpose
+          - file: content/documents/orientation/agenda.md
+            title: Agenda
+          - file: content/documents/orientation/notes.md
+            title: Notes
+          - file: content/documents/orientation/goal.md
+            title: Goal
   - file: content/announcements.md
     title: Announcements

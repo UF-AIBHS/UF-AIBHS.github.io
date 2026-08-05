@@ -19,7 +19,7 @@ settings.
 - **[About](about.md)** — mission, program structure, key features, eligibility
 - **[Staff](staff.md)** — program leadership and faculty
 - **[Software Index](resources.md)** — every tool AIBHS courses touch, by scale
-- **[Documents](documents/faculty-handbook.md)** — faculty handbook and orientation materials
+- **[Documents](documents/faculty-handbook/index.md)** — faculty handbook and orientation materials
 - **Apply:** via [ApplyWeb](https://www.applyweb.com/uflgrad/index.ftl)
 - **AIBHS website:** [AI for Health Institute, College of Medicine, UF](https://ic3.center.ufl.edu/education/aibhs/)
 
