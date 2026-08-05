@@ -5,13 +5,13 @@ Why most research code breaks — and what to do about it.
 
 ## 1. Watch the Talk
 
-**"Science as Amateur Software Development (2023 edition)"**
+**["Science as Amateur Software Development (2023 edition)"](https://www.youtube.com/watch?v=8qzVV7eEiaI)**
 Richard McElreath — Max Planck Institute for Evolutionary Anthropology
 10K views · 2 years ago · 42:15 runtime
 
 A talk given to a summer-school audience on open science / research methods.
 
-![Video thumbnail](../../images/extra-resources/software-engineering/video-amateur-software-dev.jpg)
+[![Video thumbnail](../../images/extra-resources/software-engineering/video-amateur-software-dev.jpg)](https://www.youtube.com/watch?v=8qzVV7eEiaI)
 
 ## 2. The Core Analogy: Science Needs "Continuous Integration"
 
