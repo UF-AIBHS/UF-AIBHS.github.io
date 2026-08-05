@@ -28,6 +28,8 @@ toc:
     title: Staff
   - file: content/resources.md
     title: Software Index
+  - file: content/hipergator.md
+    title: HiPerGator
   - section: Documents
     children:
       - file: content/documents/faculty-handbook.md

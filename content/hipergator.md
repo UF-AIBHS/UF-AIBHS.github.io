@@ -1,9 +1,3 @@
----
-layout: page
-title: 🖥️ HiPerGator
-nav_order: 5
-description: UF Research Computing teaching support for HiPerGator.
----
 
 # HiPerGator
 

@@ -3,8 +3,7 @@
 **[Download the PDF ↓](../data/documents/AIBHS_Faculty_Handbook.pdf)**
 
 AIBHS maintains two handbook sources — a narrative PDF (linked above) and a working
-Word reference doc with links into UF systems. Both are archived, alongside the PDF
-above, in `raw_projects_resources/` next to this repo (not published on the site).
+Word reference doc with links into UF systems.
 
 ## Sections and subsections
 

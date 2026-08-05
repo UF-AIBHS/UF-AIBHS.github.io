@@ -9,16 +9,16 @@ instead and marked **(vendor)**.
 
 | Software | Role | Resource |
 |---|---|---|
-| Python (via Anaconda) | Course language | **(vendor)** [anaconda.com](https://www.anaconda.com/download) — UF doesn't host its own Anaconda mirror for personal laptops |
+| Python (via Anaconda) | Course language | **(vendor)** [Download](https://www.anaconda.com/download) · [Install & getting started guide](https://www.anaconda.com/docs/getting-started/anaconda/install) — UF doesn't host its own Anaconda mirror for personal laptops |
 | VS Code | Primary editor | **(vendor)** [code.visualstudio.com](https://code.visualstudio.com/) · [Python in VS Code](https://code.visualstudio.com/docs/python/python-tutorial) |
-| Git (CLI) | Version control | **(UF)** [UF Research Computing: Git](https://help.rc.ufl.edu/doc/Git) |
+| Git (CLI) | Version control | **(vendor)** [git-scm.com/downloads](https://git-scm.com/downloads) — install · [Git Guides: Get Started](https://github.com/git-guides) — UF Research Computing's old Git doc link has since moved; no current UF-specific guide |
 | pandas / NumPy / matplotlib / scikit-learn | Data wrangling, viz, modeling | **(vendor)** [pandas: 10 minutes to pandas](https://pandas.pydata.org/docs/user_guide/10min.html) — no UF-specific guide; installed via conda, see Level 4 |
 
 ## Level 2 — Browser / cloud (personal account, no UF login)
 
 | Software | Role | Resource |
 |---|---|---|
-| GitHub / GitHub Desktop | Hosts course repos; version control UI | **(vendor)** [docs.github.com: GitHub flow](https://docs.github.com/en/get-started/using-github/github-flow) · [Collaborating with pull requests](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests) |
+| GitHub / GitHub Desktop | Hosts course repos; version control UI | **(vendor)** [Download GitHub Desktop](https://desktop.github.com) · [docs.github.com: GitHub flow](https://docs.github.com/en/get-started/using-github/github-flow) · [Collaborating with pull requests](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests) |
 | molab (marimo.io) | Runs Lecture/Assignment notebooks in-browser, no install | **(vendor)** [docs.marimo.io](https://docs.marimo.io/getting_started/) |
 
 ## Level 3 — UF institutional systems (GatorLink login required)
