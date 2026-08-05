@@ -8,14 +8,15 @@ seo:
   name: AIBHS
 ---
 
-![AIBHS](assets/images/aibhs-logo.png)
+![AIBHS](assets/images/aibhs-banner.png)
 
 # AIBHS: Artificial Intelligence in Biomedical and Health Sciences
 
 University of Florida College of Medicine &middot; offered through the [Intelligent Clinical Care Center (IC3)](https://ic3.center.ufl.edu/education/aibhs/)
 
-AIBHS trains the workforce in healthcare and biomedical sciences to develop and implement trustworthy artificial
-intelligence technologies — transforming digital patient care, translational research, and precision medicine.
+AIBHS is a holistic program, where biomedical and clinical knowledge is matched with AI technical, ethical and legal
+expertise, enabling students to practice and apply AI skills directly into translational research and clinical
+settings.
 
 **Quick facts**
 - Master's degree, experiential learning graduate program

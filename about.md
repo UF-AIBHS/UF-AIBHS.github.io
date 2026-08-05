@@ -10,8 +10,12 @@ description: >-
 
 ## Mission
 
-AIBHS trains the workforce in healthcare and biomedical sciences to develop and implement trustworthy artificial
-intelligence technologies. The program focuses on transforming digital patient care, translational research, and
+AIBHS is a holistic program, where biomedical and clinical knowledge is matched with AI technical, ethical and legal
+expertise, enabling students to practice and apply AI skills directly into translational research and clinical
+settings.
+
+More concretely: AIBHS trains the workforce in healthcare and biomedical sciences to develop and implement
+trustworthy artificial intelligence technologies, transforming digital patient care, translational research, and
 precision medicine.
 
 ## Program structure
