@@ -1,16 +1,4 @@
----
-layout: home
-title: AIBHS
-nav_exclude: true
-permalink: /:path/
-seo:
-  type: Course
-  name: AIBHS
----
-
-![AIBHS logo](assets/images/aibhs-logo.png)
-
-![AIBHS](assets/images/aibhs-banner.png)
+![AIBHS](images/aibhs-banner.png)
 
 # AIBHS: Artificial Intelligence in Biomedical and Health Sciences
 
@@ -21,6 +9,7 @@ expertise, enabling students to practice and apply AI skills directly into trans
 settings.
 
 **Quick facts**
+
 - Master's degree, experiential learning graduate program
 - Full-time completion: 1.5 years &middot; hybrid (online and face-to-face)
 - Campuses in Gainesville and Jacksonville, FL
@@ -30,11 +19,12 @@ settings.
 - **[About](about.md)** — mission, program structure, key features, eligibility
 - **[Staff](staff.md)** — program leadership and faculty
 - **[Software Index](resources.md)** — every tool AIBHS courses touch, by scale
-- **[Documents](documents.md)** — faculty handbook and orientation materials
+- **[Documents](documents/faculty-handbook.md)** — faculty handbook and orientation materials
 - **Apply:** via [ApplyWeb](https://www.applyweb.com/uflgrad/index.ftl)
 - **AIBHS website:** [AI for Health Institute, College of Medicine, UF](https://ic3.center.ufl.edu/education/aibhs/)
 
 **Contact**
+
 - Phone: 352-273-9009
 - Email: ic3-center@ufl.edu
 - Address: 1345 Center Drive, Gainesville, FL 32610
@@ -49,4 +39,4 @@ Only one AIBHS course has a public site so far — add a row here as more come o
 
 ---
 
-Built with [Just the Class](https://github.com/kevinlin1/just-the-class). [Source on GitHub](https://github.com/UF-AIBHS/UF-AIBHS.github.io).
+Built with [marimo-book](https://marimobook.org/). [Source on GitHub](https://github.com/UF-AIBHS/UF-AIBHS.github.io).

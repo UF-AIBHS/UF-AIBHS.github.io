@@ -1,10 +1,3 @@
----
-layout: page
-title: 📜 About
-nav_order: 1
-description: >-
-    Mission, program structure, key features, and eligibility for the AIBHS Master's Program.
----
 
 # About
 

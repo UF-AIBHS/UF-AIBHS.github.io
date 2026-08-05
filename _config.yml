@@ -2,7 +2,7 @@
 
 title: "AIBHS"
 tagline: "Artificial Intelligence in Biomedical and Health Sciences"
-description: "AIBHS Master's Program, offered through the Intelligent Clinical Care Center (IC3) at the University of Florida College of Medicine."
+description: "AIBHS Master's Program, offered through the AI for Health Institute at the University of Florida College of Medicine."
 author: University of Florida College of Medicine
 baseurl: "" # apex org site: repo name matches the UF-AIBHS org login exactly
 url: "https://uf-aibhs.github.io"
@@ -27,7 +27,7 @@ aux_links:
   Source on GitHub:
     - "https://github.com/UF-AIBHS/UF-AIBHS.github.io"
 
-footer_content: "AIBHS &middot; Intelligent Clinical Care Center (IC3), College of Medicine, University of Florida"
+footer_content: "AIBHS &middot; AI for Health Institute, College of Medicine, University of Florida"
 
 # Collections for site data — just staffers + announcements (no modules/schedules
 # collections: those are for a weekly course schedule, which doesn't apply to a

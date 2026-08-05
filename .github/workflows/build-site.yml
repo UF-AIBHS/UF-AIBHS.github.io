@@ -20,15 +20,15 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - uses: ruby/setup-ruby@v1
+      - uses: actions/setup-python@v5
         with:
-          ruby-version: "3.3"
-          bundler-cache: true
+          python-version: "3.13"
 
-      - name: Build Jekyll site
-        run: bundle exec jekyll build
-        env:
-          JEKYLL_ENV: production
+      - name: Install marimo-book
+        run: pip install marimo-book
+
+      - name: Build site
+        run: marimo-book build --strict
 
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v3

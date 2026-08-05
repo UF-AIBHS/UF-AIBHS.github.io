@@ -1,9 +1,3 @@
----
-layout: page
-title: 💻 Software Index
-nav_order: 3
-description: Every tool AIBHS courses touch, grouped by scale, with UF's own resource pages.
----
 
 # Software Index — by scale
 

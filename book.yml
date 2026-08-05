@@ -1,0 +1,38 @@
+title: AIBHS
+description: "AIBHS Master's Program — Artificial Intelligence in Biomedical and Health Sciences, offered through the AI for Health Institute at the University of Florida College of Medicine."
+authors:
+  - name: Saurabh Ranjan
+  - name: Ashish Aggarwal
+
+repo: https://github.com/UF-AIBHS/UF-AIBHS.github.io
+branch: main
+
+logo: images/aibhs-logo.png
+
+theme:
+  palette:
+    primary: "#0021A5" # UF blue
+    accent: "#FA4616"  # UF orange
+
+launch_buttons:
+  molab: false
+  github: true
+  download: false
+
+toc:
+  - file: content/index.md
+    title: Home
+  - file: content/about.md
+    title: About
+  - file: content/staff.md
+    title: Staff
+  - file: content/resources.md
+    title: Software Index
+  - section: Documents
+    children:
+      - file: content/documents/faculty-handbook.md
+        title: Faculty Handbook
+      - file: content/documents/orientation.md
+        title: Orientation
+  - file: content/announcements.md
+    title: Announcements
