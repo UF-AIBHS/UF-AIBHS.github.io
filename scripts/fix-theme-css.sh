@@ -44,18 +44,26 @@ body, .md-typeset, .md-header, .md-nav, .md-tabs {
   color: #7086ff !important;
 }
 
-/* Keep every section/subsection expanded in the sidebar at every
- * viewport width. Material's navigation.expand only force-expands
- * sections at desktop widths (min-width: 76.25em); below that, the
- * drawer nav collapses siblings to just the active page's ancestor
- * chain, which reads as the nav "losing" subsections when navigating
- * into a nested section's Overview page. */
-.md-nav__item--section > .md-nav,
-.md-nav__item--nested > .md-nav {
-  display: block !important;
+/* Sections should collapse/expand on click like a normal accordion —
+ * navigation.expand instead pins every section permanently open
+ * (unconditional `display:block`, ignoring the toggle checkbox), which
+ * is why clicking a Faculty Handbook / Orientation section did nothing.
+ * Re-implement the standard checkbox-driven show/hide so the toggle
+ * actually works again, at every width `navigation.expand` touches. */
+.md-nav__item--section > .md-nav__toggle ~ .md-nav,
+.md-nav__item--nested > .md-nav__toggle ~ .md-nav {
+  display: grid !important;
+  grid-template-rows: minmax(0.4rem, 0fr) !important;
+  opacity: 0 !important;
+  visibility: collapse !important;
+}
+.md-nav__item--section > .md-nav__toggle:checked ~ .md-nav,
+.md-nav__item--section > .md-nav__toggle.md-toggle--indeterminate ~ .md-nav,
+.md-nav__item--nested > .md-nav__toggle:checked ~ .md-nav,
+.md-nav__item--nested > .md-nav__toggle.md-toggle--indeterminate ~ .md-nav {
+  grid-template-rows: minmax(0.4rem, 1fr) !important;
   opacity: 1 !important;
   visibility: visible !important;
-  grid-template-rows: 1fr !important;
 }
 
 /* The drawer (viewport < 76.25em, which includes most non-maximized
