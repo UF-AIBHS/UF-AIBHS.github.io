@@ -30,6 +30,9 @@ jobs:
       - name: Build site
         run: marimo-book build --strict
 
+      - name: Default to light theme (ignore OS dark-mode preference)
+        run: ./scripts/fix-theme-default.sh
+
       - name: Fix header branding (logo-only, no squish)
         run: ./scripts/fix-header-branding.sh
 
