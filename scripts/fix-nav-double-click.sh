@@ -7,29 +7,43 @@ cd "$(dirname "$0")/.."
 
 cat >> _site/javascripts/marimo_book.js <<'EOF'
 
-// Sidebar sections needed two clicks to expand: navigation.expand marks
-// every non-active-path section's toggle checkbox with the JS
-// `indeterminate` property (not just the `.md-toggle--indeterminate`
-// CSS class) at build time. Clicking an indeterminate checkbox is a
-// well-known browser quirk: the click's own activation step reads
-// `indeterminate` before any same-gesture handler (mousedown/pointerdown,
-// even capture-phase) can clear it, so it only clears `indeterminate`
-// and doesn't toggle `checked` — the *next* click is the one that
-// actually opens the section. Fix: clear it proactively, once per page
-// render, before the user ever clicks — not reactively during the click.
-// Hooked the same way this file's own widget re-init is (document$ for
-// instant-nav, DOMContentLoaded/immediate for the first load).
-function clearNavToggleIndeterminate() {
+// Sidebar sections needed two clicks to expand. Setting the JS
+// `indeterminate` property to false is necessary but not sufficient —
+// tested directly: even with `indeterminate` confirmed false, a
+// checkbox that was ever rendered/laid-out with indeterminate=true
+// still eats its very first real click (browser-internal "first
+// activation" state, apparently cached at layout time, that a later
+// property write alone doesn't invalidate). Every click after that
+// first one toggles correctly. Confirmed by clicking the same toggle
+// 5x in a row: 1st click did nothing, then true/false/true/false/true
+// — a perfectly normal alternating toggle from click 2 onward.
+//
+// Fix: burn that one wasted click programmatically, on every toggle,
+// before the user ever touches the sidebar — click it twice (nets to
+// the same checked state, so nothing visibly changes) with the
+// section's collapse transition disabled for that instant so there's
+// no flash of it opening/closing.
+function primeNavToggles() {
   document.querySelectorAll(".md-nav__toggle").forEach((el) => {
     el.indeterminate = false;
+    const nav = el.parentElement.querySelector(":scope > .md-nav");
+    const originalChecked = el.checked;
+    if (nav) nav.style.transition = "none";
+    el.click();
+    el.click();
+    if (el.checked !== originalChecked) el.checked = originalChecked;
+    if (nav) {
+      void nav.offsetHeight; // force reflow so transition:none applies before it's removed
+      nav.style.transition = "";
+    }
   });
 }
 if (document.readyState === "loading") {
-  document.addEventListener("DOMContentLoaded", clearNavToggleIndeterminate);
+  document.addEventListener("DOMContentLoaded", primeNavToggles);
 } else {
-  clearNavToggleIndeterminate();
+  primeNavToggles();
 }
 if (typeof document$ !== "undefined" && document$.subscribe) {
-  document$.subscribe(clearNavToggleIndeterminate);
+  document$.subscribe(primeNavToggles);
 }
 EOF
