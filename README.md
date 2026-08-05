@@ -20,14 +20,15 @@ marimo-book build
 # Validate book.yml + content without building
 marimo-book check
 
-# book.yml has no custom-CSS hook, so theme tweaks (default light theme,
-# font, spacing, dark-mode contrast, header branding) are patched onto the
-# built site directly — run after every build, before previewing.
-# fix-theme-default.sh reruns `mkdocs build`, so it must go first, or it
-# wipes the other two scripts' patches:
+# book.yml has no custom-CSS/JS hook, so theme tweaks (default light theme,
+# font, spacing, dark-mode contrast, header branding, nav click behavior)
+# are patched onto the built site directly — run after every build, before
+# previewing. fix-theme-default.sh reruns `mkdocs build`, so it must go
+# first, or it wipes the other scripts' patches:
 ./scripts/fix-theme-default.sh
 ./scripts/fix-header-branding.sh
 ./scripts/fix-theme-css.sh
+./scripts/fix-nav-double-click.sh
 ```
 
 ## Layout

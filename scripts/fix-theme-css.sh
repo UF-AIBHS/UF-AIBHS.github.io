@@ -92,9 +92,26 @@ body, .md-typeset, .md-header, .md-nav, .md-tabs {
  * accent color on hover/focus — combined with no underline at rest,
  * links were visually identical to plain text. Use the theme's link
  * color (book.yml's primary, injected into --md-typeset-a-color) at
- * rest so links are recognizable without hovering. */
+ * rest, plus an underline, so links are recognizable without hovering
+ * and without relying on color alone. */
 .md-typeset a:not(.md-button):not(.headerlink) {
   color: var(--md-typeset-a-color);
+  text-decoration: underline;
+  text-underline-offset: 0.15em;
+}
+
+/* Links to an actual downloadable file (PDF/Word/etc, matched by
+ * extension — covers "Download the PDF" links and any other file link)
+ * get the accent color instead of the primary link color, so a click
+ * that downloads a file reads differently at a glance than a click that
+ * navigates to another page. */
+.md-typeset a:not(.md-button):not(.headerlink)[href$=".pdf"],
+.md-typeset a:not(.md-button):not(.headerlink)[href$=".docx"],
+.md-typeset a:not(.md-button):not(.headerlink)[href$=".doc"],
+.md-typeset a:not(.md-button):not(.headerlink)[href$=".xlsx"],
+.md-typeset a:not(.md-button):not(.headerlink)[href$=".pptx"],
+.md-typeset a:not(.md-button):not(.headerlink)[href$=".zip"] {
+  color: var(--md-accent-fg-color);
 }
 
 /* The drawer (viewport < 76.25em, which includes most non-maximized

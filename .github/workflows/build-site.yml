@@ -39,6 +39,9 @@ jobs:
       - name: Fix theme CSS (font, spacing, dark-mode contrast, nav expand)
         run: ./scripts/fix-theme-css.sh
 
+      - name: Fix nav double-click (indeterminate checkbox quirk)
+        run: ./scripts/fix-nav-double-click.sh
+
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v3
         with:
