@@ -26,6 +26,7 @@ intelligence technologies — transforming digital patient care, translational r
 
 - **[About](about.md)** — mission, program structure, key features, eligibility
 - **[Staff](staff.md)** — program leadership and faculty
+- **[Software Index](resources.md)** — every tool AIBHS courses touch, by scale
 - **Apply:** via [ApplyWeb](https://www.applyweb.com/uflgrad/index.ftl)
 - **Official program page:** [ic3.center.ufl.edu/education/aibhs](https://ic3.center.ufl.edu/education/aibhs/)
 
@@ -34,9 +35,13 @@ intelligence technologies — transforming digital patient care, translational r
 - Email: ic3-center@ufl.edu
 - Address: 1345 Center Drive, Gainesville, FL 32610
 
-## Courses
+## AIBHS Courses
 
-- [CAI 5735: Applied Data Science in Health](https://uf-aibhs.github.io/cai5735/) — Fall 2026, AIBHS's computational on-ramp course
+| Course | Teaching Staff | Link |
+|---|---|---|
+| CAI 5735: Applied Data Science in Health (Fall 2026) | Ashish Aggarwal, Scott Siegel | [Course site](https://uf-aibhs.github.io/cai5735/) |
+
+Only one AIBHS course has a public site so far — add a row here as more come online.
 
 ---
 
