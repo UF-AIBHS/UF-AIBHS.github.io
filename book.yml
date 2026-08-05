@@ -30,6 +30,8 @@ toc:
     title: Software Index
   - file: content/hipergator.md
     title: HiPerGator
+  - file: content/datasets.md
+    title: Datasets
   - section: Documents
     children:
       - section: Faculty Handbook

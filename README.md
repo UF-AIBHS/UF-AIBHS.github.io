@@ -19,6 +19,12 @@ marimo-book build
 
 # Validate book.yml + content without building
 marimo-book check
+
+# book.yml has no custom-CSS hook, so theme tweaks (font, spacing,
+# dark-mode contrast, header branding) are patched onto the built site
+# directly — run after every build/serve, before previewing:
+./scripts/fix-header-branding.sh
+./scripts/fix-theme-css.sh
 ```
 
 ## Layout
@@ -26,6 +32,7 @@ marimo-book check
 - `book.yml` — table of contents, theme, branding
 - `content/` — page Markdown, one file per nav entry (see `book.yml`'s `toc:`)
 - `images/`, `data/` — static assets (logos, banners, downloadable PDFs) copied verbatim into the built site
+- `scripts/` — post-build CSS patches (see above); no book.yml equivalent exists yet
 - `.github/workflows/build-site.yml` — builds and publishes to GitHub Pages on every push to `main`
 
 Deployed automatically via GitHub Actions on push to `main`.

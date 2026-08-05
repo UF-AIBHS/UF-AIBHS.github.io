@@ -33,6 +33,9 @@ jobs:
       - name: Fix header branding (logo-only, no squish)
         run: ./scripts/fix-header-branding.sh
 
+      - name: Fix theme CSS (font, spacing, dark-mode contrast, nav expand)
+        run: ./scripts/fix-theme-css.sh
+
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v3
         with:
