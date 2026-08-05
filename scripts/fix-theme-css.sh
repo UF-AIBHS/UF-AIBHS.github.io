@@ -69,6 +69,34 @@ body, .md-typeset, .md-header, .md-nav, .md-tabs {
   visibility: visible !important;
 }
 
+/* Top-level section headers (e.g. "Documents", "Extra Resources") are a
+ * separate problem from the above: Material's base CSS treats
+ * `navigation.sections` top-level labels as static, non-interactive
+ * category dividers — `pointer-events: none` and `cursor: default` on
+ * the label — so even with the toggle rule above, clicking one never
+ * reaches the checkbox at all. Restore normal clickability so every
+ * level, not just subsections, responds to a click. */
+.md-nav__item--section > label.md-nav__link {
+  pointer-events: auto !important;
+  cursor: pointer !important;
+}
+/* Material also hides the chevron icon on section labels (display:none)
+ * since static dividers have nothing to indicate — restore it so a
+ * collapsible top-level section actually looks collapsible. */
+.md-nav__item--section > label.md-nav__link .md-nav__icon {
+  display: inline-block !important;
+}
+
+/* marimo-book's default link style sets the *resting* color to
+ * --md-default-fg-color (same as body text) and only shifts to the
+ * accent color on hover/focus — combined with no underline at rest,
+ * links were visually identical to plain text. Use the theme's link
+ * color (book.yml's primary, injected into --md-typeset-a-color) at
+ * rest so links are recognizable without hovering. */
+.md-typeset a:not(.md-button):not(.headerlink) {
+  color: var(--md-typeset-a-color);
+}
+
 /* The drawer (viewport < 76.25em, which includes most non-maximized
  * laptop windows, not just phones) goes further than plain collapsing:
  * Material's JS adds a `.md-nav--lifted` class that drops to a
