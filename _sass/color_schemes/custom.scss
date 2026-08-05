@@ -1,0 +1,22 @@
+// CAI 5735 palette — University of Florida blue & orange,
+// matching the previous hand-rolled site's :root custom properties.
+//
+// No `!default` here: just-the-docs always imports color_schemes/light
+// first and this file second (see _includes/css/just-the-docs.scss.liquid),
+// so a `!default` value would be a no-op — light.scss already set it.
+
+$body-background-color: $white;
+$body-heading-color: #111;
+$body-text-color: #111;
+$link-color: #0021A5; // UF blue
+$nav-child-link-color: #333;
+$sidebar-color: #f7f7f7;
+$base-button-color: #f7f7f7;
+$btn-primary-color: #FA4616; // UF orange
+$code-background-color: $white;
+$border-color: #ccc;
+$table-background-color: $white;
+$search-background-color: $white;
+$search-result-preview-color: #555;
+
+@import "./vendor/accessible-pygments/github-light";

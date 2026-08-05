@@ -1,0 +1,64 @@
+# AIBHS program site — built on Just the Class (https://github.com/kevinlin1/just-the-class)
+
+title: "AIBHS"
+tagline: "Artificial Intelligence in Biomedical and Health Sciences"
+description: "AIBHS Master's Program, offered through the Intelligent Clinical Care Center (IC3) at the University of Florida College of Medicine."
+author: University of Florida College of Medicine
+baseurl: "" # apex org site: repo name matches the UF-AIBHS org login exactly
+url: "https://uf-aibhs.github.io"
+exclude:
+  # Setting `exclude:` at all replaces Jekyll's own default list (Gemfile,
+  # node_modules, vendor/bundle/, vendor/cache/, vendor/gems/, vendor/ruby/,
+  # etc.) rather than adding to it — so those defaults are repeated here too.
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor
+  - .bundle
+
+# Theme settings
+remote_theme: just-the-docs/just-the-docs@v0.12.0
+color_scheme: custom
+search_enabled: true
+heading_anchors: true
+permalink: pretty
+
+aux_links:
+  Source on GitHub:
+    - "https://github.com/UF-AIBHS/UF-AIBHS.github.io"
+
+footer_content: "AIBHS &middot; Intelligent Clinical Care Center (IC3), College of Medicine, University of Florida"
+
+# Collections for site data — just staffers + announcements (no modules/schedules
+# collections: those are for a weekly course schedule, which doesn't apply to a
+# program-level site)
+collections:
+  staffers:
+  announcements:
+
+defaults:
+  - scope:
+      path: ""
+      type: staffers
+    values:
+      layout: staffer
+      height: 300
+      subpath: "/assets/images/"
+      width: 300
+  - scope:
+      path: ""
+      type: announcements
+    values:
+      layout: announcement
+
+compress_html:
+  clippings: all
+  comments: all
+  endings: all
+  startings: []
+  blanklines: false
+  profile: false
+
+liquid:
+  error_mode: strict
+  strict_filters: true
