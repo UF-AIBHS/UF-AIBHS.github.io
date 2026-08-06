@@ -1,7 +1,5 @@
 # Deadline Extensions
 
-**[Download the Word doc ↓](../../data/documents/AIBHS_Faculty_Canvas_Resource_Instructions.docx)**
-
 *(Also covered on the [Faculty Handbook's Deadline Extensions page](../faculty-handbook/student-accommodations-deadline-extensions.md).)*
 
 Canvas assignment due dates can be modified for an individual student, or for a

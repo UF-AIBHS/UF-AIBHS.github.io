@@ -1,7 +1,5 @@
 # Extra Time on Quizzes
 
-**[Download the Word doc ↓](../../data/documents/AIBHS_Faculty_Canvas_Resource_Instructions.docx)**
-
 *(Also covered on the [Faculty Handbook's Providing Extra Time page](../faculty-handbook/student-accommodations-extra-time.md).)*
 
 Some students may require extended time on quizzes and exams as part of their

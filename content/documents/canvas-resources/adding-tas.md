@@ -1,7 +1,5 @@
 # Adding TAs to Canvas
 
-**[Download the Word doc ↓](../../data/documents/AIBHS_Faculty_Canvas_Resource_Instructions.docx)**
-
 *(Also covered on the [Faculty Handbook's Adding TAs page](../faculty-handbook/canvas-adding-tas.md).)*
 
 **Instructor Tools » Manage Users » Add Users**

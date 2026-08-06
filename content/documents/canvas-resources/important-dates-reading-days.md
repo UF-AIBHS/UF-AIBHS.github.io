@@ -1,7 +1,5 @@
 # Reading Days
 
-**[Download the Word doc ↓](../../data/documents/AIBHS_Faculty_Canvas_Resource_Instructions.docx)**
-
 *(Also covered on the [Faculty Handbook's Reading Days page](../faculty-handbook/important-dates-reading-days.md).)*
 
 In the Fall and Spring semesters, the University of Florida provides students with
