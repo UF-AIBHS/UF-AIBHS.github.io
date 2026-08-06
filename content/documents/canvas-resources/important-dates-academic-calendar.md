@@ -1,6 +1,6 @@
 # Academic Calendar
 
-*(Also covered on the [Faculty Handbook's Academic Calendar page](../faculty-handbook/important-dates-academic-calendar.md).)*
+*(Also covered on the [Faculty Handbook's Academic Calendar page](../faculty-handbook/important-dates.md#academic-calendar).)*
 
 The University of Florida Academic Calendar can be found here:
 

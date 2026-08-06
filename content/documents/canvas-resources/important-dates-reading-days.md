@@ -1,6 +1,6 @@
 # Reading Days
 
-*(Also covered on the [Faculty Handbook's Reading Days page](../faculty-handbook/important-dates-reading-days.md).)*
+*(Also covered on the [Faculty Handbook's Reading Days page](../faculty-handbook/important-dates.md#reading-days).)*
 
 In the Fall and Spring semesters, the University of Florida provides students with
 reading days to prepare for final exams. During reading days, nothing mandatory can

@@ -1,6 +1,6 @@
 # Extra Time on Quizzes
 
-*(Also covered on the [Faculty Handbook's Providing Extra Time page](../faculty-handbook/student-accommodations-extra-time.md).)*
+*(Also covered on the [Faculty Handbook's Providing Extra Time page](../faculty-handbook/student-accommodations.md#providing-extra-time-on-assignments).)*
 
 Some students may require extended time on quizzes and exams as part of their
 accommodations. The guide below explains the steps for modifying the time for an

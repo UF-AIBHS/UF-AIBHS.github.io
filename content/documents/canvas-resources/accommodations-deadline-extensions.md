@@ -1,6 +1,6 @@
 # Deadline Extensions
 
-*(Also covered on the [Faculty Handbook's Deadline Extensions page](../faculty-handbook/student-accommodations-deadline-extensions.md).)*
+*(Also covered on the [Faculty Handbook's Deadline Extensions page](../faculty-handbook/student-accommodations.md#deadline-extensions).)*
 
 Canvas assignment due dates can be modified for an individual student, or for a
 specific course section. You may need to do this to accommodate for extended time

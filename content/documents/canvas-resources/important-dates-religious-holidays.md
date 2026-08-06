@@ -1,6 +1,6 @@
 # Religious Holidays
 
-*(Also covered on the [Faculty Handbook's Religious Holidays page](../faculty-handbook/important-dates-religious-holidays.md).)*
+*(Also covered on the [Faculty Handbook's Religious Holidays page](../faculty-handbook/important-dates.md#religious-holidays).)*
 
 Students wishing to observe a religious holiday must provide notice well in
 advance. Those students are still responsible for completing any missed material,

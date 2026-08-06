@@ -1,6 +1,6 @@
 # Adding TAs to Canvas
 
-*(Also covered on the [Faculty Handbook's Adding TAs page](../faculty-handbook/canvas-adding-tas.md).)*
+*(Also covered on the [Faculty Handbook's Adding TAs page](../faculty-handbook/canvas.md#adding-tas-to-canvas).)*
 
 **Instructor Tools » Manage Users » Add Users**
 
