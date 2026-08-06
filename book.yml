@@ -30,46 +30,20 @@ toc:
         title: Overview
       - file: content/documents/canvas-resources/requesting-a-course.md
         title: Requesting a Canvas Course
-      - section: Setting Up Your Course
-        children:
-          - file: content/documents/canvas-resources/setup-overview.md
-            title: Overview
-          - file: content/documents/canvas-resources/setup-assignments.md
-            title: Creating Assignments
-          - file: content/documents/canvas-resources/setup-creating-pages.md
-            title: Creating Pages
-          - file: content/documents/canvas-resources/setup-editing-pages.md
-            title: Editing Pages
-          - file: content/documents/canvas-resources/setup-home-page.md
-            title: Changing the Course Home Page
+      - file: content/documents/canvas-resources/setup-overview.md
+        title: Setting Up Your Course
       - file: content/documents/canvas-resources/adding-tas.md
         title: Adding TAs to Canvas
-      - section: Student Accommodations
-        children:
-          - file: content/documents/canvas-resources/accommodations-drc.md
-            title: Disability Resource Center
-          - file: content/documents/canvas-resources/accommodations-extra-time.md
-            title: Extra Time on Quizzes
-          - file: content/documents/canvas-resources/accommodations-deadline-extensions.md
-            title: Deadline Extensions
+      - file: content/documents/canvas-resources/accommodations-drc.md
+        title: Student Accommodations
       - file: content/documents/canvas-resources/zoom-conferences.md
         title: Zoom Conferences
       - file: content/documents/canvas-resources/finalizing-grades.md
         title: Finalizing & Submitting Grades
       - file: content/documents/canvas-resources/importing-previous-course.md
         title: Importing from a Previous Course
-      - section: External Tools
-        children:
-          - file: content/documents/canvas-resources/external-tools-overview.md
-            title: Overview
-          - file: content/documents/canvas-resources/external-tools-communication.md
-            title: Course Communication
-          - file: content/documents/canvas-resources/external-tools-grading.md
-            title: Automated Grading
-          - file: content/documents/canvas-resources/external-tools-proctoring.md
-            title: Proctoring
-          - file: content/documents/canvas-resources/external-tools-accessibility.md
-            title: Accessibility
+      - file: content/documents/canvas-resources/external-tools-overview.md
+        title: External Tools
       - file: content/documents/canvas-resources/office-hours-guidelines.md
         title: Office Hours Guidelines
       - section: Important Dates and Policies
