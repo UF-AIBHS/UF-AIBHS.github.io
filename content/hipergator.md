@@ -16,7 +16,7 @@ For classroom and teaching support on HiPerGator, see UF Research Computing's gu
 
 ### 2. Ways to Connect
 
-[docs.rc.ufl.edu/access/interfaces](https://docs.rc.ufl.edu/access/interfaces/)
+[docs.rc.ufl.edu/quickstart/interfaces](https://docs.rc.ufl.edu/quickstart/interfaces/)
 
 - **Command line** — connect over SSH into a Linux shell; best for automation and full flexibility
 - **Web interfaces** — Open OnDemand (GUI apps, RStudio, MATLAB) and JupyterHub (notebooks), both in your
