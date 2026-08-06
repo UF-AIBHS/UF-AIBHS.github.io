@@ -19,5 +19,5 @@ already familiar.
 9. [Running Cells & Writing Markdown](running-cells-writing-markdown.md)
 10. [IPython Deep Dive: Python Data Science Handbook, Ch. 1](ipython-deep-dive-pdsh.md)
 11. [Python Expert Talk: Decorators, Generators & Metaclasses (video)](python-expert-talk-video.md)
-12. [HiPerGator: UF's Research Computing Cluster](hipergator-research-computing.md)
+12. [HiPerGator: UF's Research Computing Cluster](../../hipergator.md)
 13. [marimo: Reactive Python Notebooks](marimo-reactive-notebooks.md)

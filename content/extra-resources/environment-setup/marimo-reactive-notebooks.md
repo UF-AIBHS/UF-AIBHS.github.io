@@ -50,7 +50,7 @@ marimo edit --headless --port=8890
 ## 6. Reaching It From Your Laptop
 
 Same idea as a standalone Jupyter server on
-[HiPerGator](hipergator-research-computing.md): open an SSH tunnel from your laptop to the compute node and
+[HiPerGator](../../hipergator.md): open an SSH tunnel from your laptop to the compute node and
 port.
 
 ```

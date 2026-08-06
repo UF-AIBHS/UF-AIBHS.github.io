@@ -140,8 +140,6 @@ toc:
         title: "IPython Deep Dive (PDSH Ch. 1)"
       - file: content/extra-resources/environment-setup/python-expert-talk-video.md
         title: "Python Expert Talk (video)"
-      - file: content/extra-resources/environment-setup/hipergator-research-computing.md
-        title: "HiPerGator: Research Computing Cluster"
       - file: content/extra-resources/environment-setup/marimo-reactive-notebooks.md
         title: marimo Notebooks
   - section: Software Engineering Practices for Data Science
