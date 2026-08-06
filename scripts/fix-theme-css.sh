@@ -37,10 +37,13 @@ body, .md-typeset, .md-header, .md-nav, .md-tabs {
 /* Dark mode: the active/current sidebar entry uses the raw UF-blue
  * primary color (#0021A5) as text color, which is close to unreadable
  * against the near-black background (~1.6:1 contrast). Lighten it for
- * the dark scheme only; light mode's white background is unaffected. */
+ * the dark scheme only; light mode's white background is unaffected.
+ * Scoped to --active only — an earlier version of this rule also matched
+ * every section/dropdown toggle label unconditionally (`[for]` matches
+ * any label, active or not), which colored dropdown nav items blue while
+ * plain leaf links stayed the default dimmed color. */
 [data-md-color-scheme="slate"] .md-nav__link--active,
-[data-md-color-scheme="slate"] .md-nav__link--active .md-nav__icon,
-[data-md-color-scheme="slate"] .md-nav__item--section > .md-nav__link[for] {
+[data-md-color-scheme="slate"] .md-nav__link--active .md-nav__icon {
   color: #7086ff !important;
 }
 
@@ -157,14 +160,19 @@ body, .md-typeset, .md-header, .md-nav, .md-tabs {
  * entries are plain page links, not real categories) that reads as an
  * unexplained mismatch rather than a meaningful hierarchy cue. Override
  * with the identical selector (same specificity, later in cascade wins)
- * to match plain .md-nav__link styling exactly. */
+ * to match plain .md-nav__link styling exactly — including color: using
+ * the link-blue accent here (an earlier version of this rule) made
+ * section/dropdown headers a different color than every plain leaf link,
+ * so nav items were colored by nestedness instead of uniformly. Material's
+ * own default nav-link color is the var below; setting it explicitly
+ * guards against marimo-book's dimmer section color reapplying it. */
 .md-nav--primary .md-nav__item--section > .md-nav__link,
 .md-nav--primary .md-nav__item--section > label.md-nav__link {
   text-transform: none;
   font-size: 0.8rem;
   font-weight: 400;
   letter-spacing: normal;
-  color: var(--md-typeset-a-color);
+  color: var(--md-default-fg-color--light);
   margin-top: 0.625em;
   margin-bottom: 0;
 }
