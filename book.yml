@@ -46,16 +46,8 @@ toc:
         title: External Tools
       - file: content/documents/canvas-resources/office-hours-guidelines.md
         title: Office Hours Guidelines
-      - section: Important Dates and Policies
-        children:
-          - file: content/documents/canvas-resources/important-dates-academic-calendar.md
-            title: Academic Calendar
-          - file: content/documents/canvas-resources/important-dates-add-drop.md
-            title: Add/Drop
-          - file: content/documents/canvas-resources/important-dates-religious-holidays.md
-            title: Religious Holidays
-          - file: content/documents/canvas-resources/important-dates-reading-days.md
-            title: Reading Days
+      - file: content/documents/canvas-resources/important-dates-academic-calendar.md
+        title: Important Dates and Policies
   - section: Faculty Handbook
     children:
       - file: content/documents/faculty-handbook/index.md
