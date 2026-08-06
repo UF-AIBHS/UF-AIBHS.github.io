@@ -148,4 +148,22 @@ body, .md-typeset, .md-header, .md-nav, .md-tabs {
   font-size: 0.6rem;
   padding: 0.25rem 0;
 }
+
+/* marimo-book's own base stylesheet (docs/stylesheets/extra.css) styles
+ * top-level section labels ("Canvas Resources", "Documents") as small-caps
+ * category markers: uppercase, smaller font-size, letter-spacing, dimmer
+ * color, on top of Material's own font-weight:700 for the same elements.
+ * Next to this book's flat single-level nav (no tabs, most top-level
+ * entries are plain page links, not real categories) that reads as an
+ * unexplained mismatch rather than a meaningful hierarchy cue. Override
+ * with the identical selector (same specificity, later in cascade wins)
+ * to match plain .md-nav__link styling exactly. */
+.md-nav--primary .md-nav__item--section > .md-nav__link,
+.md-nav--primary .md-nav__item--section > label.md-nav__link {
+  text-transform: none;
+  font-size: 0.8rem;
+  font-weight: 400;
+  letter-spacing: normal;
+  color: var(--md-typeset-a-color);
+}
 EOF
