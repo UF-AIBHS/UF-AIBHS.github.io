@@ -24,8 +24,6 @@ toc:
     title: Home
   - file: content/about.md
     title: About
-  - file: content/staff.md
-    title: Staff
   - file: content/announcements.md
     title: Announcements
   - section: Canvas Resources

@@ -17,7 +17,6 @@ settings.
 - Open to traditional graduate students, working professionals, and combined professional/graduate degree students — full-time and part-time
 
 - **[About](about.md)** — mission, program structure, key features, eligibility
-- **[Staff](staff.md)** — program leadership and faculty
 - **[Software Index](resources.md)** — every tool AIBHS courses touch, by scale
 - **[Documents](documents/faculty-handbook/index.md)** — faculty handbook and orientation materials
 - **Apply:** via [ApplyWeb](https://www.applyweb.com/uflgrad/index.ftl)
