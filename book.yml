@@ -44,10 +44,6 @@ toc:
         title: Importing from a Previous Course
       - file: content/documents/canvas-resources/external-tools-overview.md
         title: External Tools
-      - file: content/documents/canvas-resources/office-hours-guidelines.md
-        title: Office Hours Guidelines
-      - file: content/documents/canvas-resources/important-dates-academic-calendar.md
-        title: Important Dates and Policies
   - section: Faculty Handbook
     children:
       - file: content/documents/faculty-handbook/index.md
