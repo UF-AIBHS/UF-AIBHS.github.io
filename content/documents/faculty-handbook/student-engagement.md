@@ -1,6 +1,8 @@
-# Office Hours
+# Student Engagement
 
 **[Download the PDF ↓](../../data/documents/AIBHS_Faculty_Handbook.pdf)**
+
+## Office Hours
 
 Faculty-student interactions during office hours are an important part of the
 instructional assignment and a positive contributor to student success. In accordance
@@ -26,3 +28,9 @@ Office hour expectations and the format of office hours may vary by the nature o
 course, the number of students enrolled, and individual academic unit guidelines. It is
 anticipated, however, that faculty will designate a minimum of two hours of office time
 per week for each course. Office hours may not be restricted to by appointment only.
+
+## Communication
+
+Faculty-student communication will primarily be through UF email. However,
+communication can also be via phone or Zoom. It is best practice to respond within 48
+business hours.
