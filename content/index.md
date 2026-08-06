@@ -34,8 +34,6 @@ settings.
 |---|---|---|
 | CAI 5735: Applied Data Science in Health (Fall 2026) | Ashish Aggarwal, Scott Siegel | [Course site](https://uf-aibhs.github.io/cai5735/) |
 
-Only one AIBHS course has a public site so far — add a row here as more come online.
-
 ---
 
 Built with [marimo-book](https://marimobook.org/). [Source on GitHub](https://github.com/UF-AIBHS/UF-AIBHS.github.io).
