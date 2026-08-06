@@ -26,8 +26,8 @@ toc:
     title: About
   - file: content/staff.md
     title: Staff
-  - file: content/resources.md
-    title: Software Index
+  - file: content/announcements.md
+    title: Announcements
   - section: Canvas Resources
     children:
       - file: content/documents/canvas-resources/index.md
@@ -90,56 +90,6 @@ toc:
             title: Religious Holidays
           - file: content/documents/canvas-resources/important-dates-reading-days.md
             title: Reading Days
-  - file: content/hipergator.md
-    title: HiPerGator
-  - file: content/datasets.md
-    title: Datasets
-  - section: Extra Resources
-    children:
-      - section: Environment & Tooling Setup
-        children:
-          - file: content/extra-resources/environment-setup/index.md
-            title: Overview
-          - file: content/extra-resources/environment-setup/installing-anaconda-navigator.md
-            title: Installing Anaconda Navigator
-          - file: content/extra-resources/environment-setup/anaconda-python-macos-video.md
-            title: "Anaconda & Python Setup on macOS (video)"
-          - file: content/extra-resources/environment-setup/python-environments-explained-video.md
-            title: "Python Environments Explained (video)"
-          - file: content/extra-resources/environment-setup/creating-exporting-conda-environment.md
-            title: Creating & Exporting a Conda Environment
-          - file: content/extra-resources/environment-setup/installing-vscode.md
-            title: Installing Visual Studio Code
-          - file: content/extra-resources/environment-setup/touring-vscode-interface.md
-            title: Touring the VS Code Interface
-          - file: content/extra-resources/environment-setup/vscode-extensions-settings.md
-            title: Extensions & Settings
-          - file: content/extra-resources/environment-setup/jupyter-notebook-in-vscode.md
-            title: Setting Up a Jupyter Notebook
-          - file: content/extra-resources/environment-setup/running-cells-writing-markdown.md
-            title: Running Cells & Writing Markdown
-          - file: content/extra-resources/environment-setup/ipython-deep-dive-pdsh.md
-            title: "IPython Deep Dive (PDSH Ch. 1)"
-          - file: content/extra-resources/environment-setup/python-expert-talk-video.md
-            title: "Python Expert Talk (video)"
-          - file: content/extra-resources/environment-setup/hipergator-research-computing.md
-            title: "HiPerGator: Research Computing Cluster"
-          - file: content/extra-resources/environment-setup/marimo-reactive-notebooks.md
-            title: marimo Notebooks
-      - section: Software Engineering Practices for Data Science
-        children:
-          - file: content/extra-resources/software-engineering/index.md
-            title: Overview
-          - file: content/extra-resources/software-engineering/virtual-environments.md
-            title: Virtual Environments
-          - file: content/extra-resources/software-engineering/keeping-secrets-out-of-git.md
-            title: Keeping Secrets Out of Git
-          - file: content/extra-resources/software-engineering/git-github-desktop.md
-            title: Git & GitHub Desktop
-          - file: content/extra-resources/software-engineering/cookiecutter-data-science.md
-            title: Cookiecutter Data Science
-          - file: content/extra-resources/software-engineering/amateur-software-development-talk.md
-            title: "Science as Amateur Software Dev (talk)"
   - section: Documents
     children:
       - section: Faculty Handbook
@@ -206,5 +156,53 @@ toc:
             title: Notes
           - file: content/documents/orientation/goal.md
             title: Goal
-  - file: content/announcements.md
-    title: Announcements
+  - file: content/resources.md
+    title: Software Index
+  - file: content/datasets.md
+    title: Datasets
+  - file: content/hipergator.md
+    title: HiPerGator
+  - section: Environment & Tooling Setup
+    children:
+      - file: content/extra-resources/environment-setup/index.md
+        title: Overview
+      - file: content/extra-resources/environment-setup/installing-anaconda-navigator.md
+        title: Installing Anaconda Navigator
+      - file: content/extra-resources/environment-setup/anaconda-python-macos-video.md
+        title: "Anaconda & Python Setup on macOS (video)"
+      - file: content/extra-resources/environment-setup/python-environments-explained-video.md
+        title: "Python Environments Explained (video)"
+      - file: content/extra-resources/environment-setup/creating-exporting-conda-environment.md
+        title: Creating & Exporting a Conda Environment
+      - file: content/extra-resources/environment-setup/installing-vscode.md
+        title: Installing Visual Studio Code
+      - file: content/extra-resources/environment-setup/touring-vscode-interface.md
+        title: Touring the VS Code Interface
+      - file: content/extra-resources/environment-setup/vscode-extensions-settings.md
+        title: Extensions & Settings
+      - file: content/extra-resources/environment-setup/jupyter-notebook-in-vscode.md
+        title: Setting Up a Jupyter Notebook
+      - file: content/extra-resources/environment-setup/running-cells-writing-markdown.md
+        title: Running Cells & Writing Markdown
+      - file: content/extra-resources/environment-setup/ipython-deep-dive-pdsh.md
+        title: "IPython Deep Dive (PDSH Ch. 1)"
+      - file: content/extra-resources/environment-setup/python-expert-talk-video.md
+        title: "Python Expert Talk (video)"
+      - file: content/extra-resources/environment-setup/hipergator-research-computing.md
+        title: "HiPerGator: Research Computing Cluster"
+      - file: content/extra-resources/environment-setup/marimo-reactive-notebooks.md
+        title: marimo Notebooks
+  - section: Software Engineering Practices for Data Science
+    children:
+      - file: content/extra-resources/software-engineering/index.md
+        title: Overview
+      - file: content/extra-resources/software-engineering/virtual-environments.md
+        title: Virtual Environments
+      - file: content/extra-resources/software-engineering/keeping-secrets-out-of-git.md
+        title: Keeping Secrets Out of Git
+      - file: content/extra-resources/software-engineering/git-github-desktop.md
+        title: Git & GitHub Desktop
+      - file: content/extra-resources/software-engineering/cookiecutter-data-science.md
+        title: Cookiecutter Data Science
+      - file: content/extra-resources/software-engineering/amateur-software-development-talk.md
+        title: "Science as Amateur Software Dev (talk)"
