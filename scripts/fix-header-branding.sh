@@ -24,10 +24,23 @@ cat >> _site/stylesheets/extra.css <<'EOF'
   width: auto !important;
   height: 1.6rem !important;
 }
+/* Material vertically centers the (single-line) title by setting
+ * line-height equal to the element's own height, all the way down
+ * the chain — not a transform-based trick. So height and line-height
+ * have to shrink *together* and stay equal at every level, or the
+ * centering breaks: line-height alone (height left at the old 48px)
+ * left the text sitting at the top of its box instead of centered,
+ * since with a shorter line-height than its container the text just
+ * flows from the top like normal block content. */
+.md-header__title,
+.md-header__title .md-header__ellipsis,
+.md-header__title .md-header__topic,
+.md-header__title .md-ellipsis {
+  height: 1.6rem !important;
+  line-height: 1.6rem !important;
+}
 .md-header__title {
   font-size: 1.05rem;
-  display: flex;
-  align-items: center;
 }
 .md-header__button.md-logo ~ .md-header__title {
   margin-left: 0.5rem;
