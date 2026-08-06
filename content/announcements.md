@@ -1,3 +1,0 @@
-# Announcements
-
-None posted yet.
