@@ -1,8 +1,11 @@
 # Working Reference (Word doc)
 
+**[Download the Word doc ↓](../../data/documents/AIBHS_Faculty_Canvas_Resource_Instructions.docx)**
+
 AIBHS also maintains a working Word reference doc, separate from the PDF handbook,
-with links into UF systems. It isn't published on the site (not a PDF), but a copy is
-archived in `raw_projects_resources/` next to this repo. Its sections:
+with links into UF systems. Its content is now published on the site under
+**[Canvas Resource Instructions](../canvas-resources/index.md)** in the sidebar,
+split by section and subsection. Its sections:
 
 - How do I request a Canvas course?
 - How do I set up my Canvas course?
