@@ -7,8 +7,6 @@ authors:
 repo: https://github.com/UF-AIBHS/UF-AIBHS.github.io
 branch: main
 
-logo: images/aibhs-logo-mark.png
-
 theme:
   palette:
     primary: "#0021A5" # UF blue
