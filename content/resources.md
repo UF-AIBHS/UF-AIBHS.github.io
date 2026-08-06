@@ -30,7 +30,7 @@ instead and marked **(vendor)**.
 | Kaizen / Gradescope | Where assignments are actually submitted (embedded in Canvas) | **(UF)** accessed through the specific Canvas assignment page — no standalone UF doc |
 | UF Zoom | Office hours, optional live-stream of lecture | **(UF)** [ufl.zoom.us](https://ufl.zoom.us/) — sign in via SSO, company domain `ufl` |
 | GatorEvals | End-of-term course evaluations | **(UF)** [gatorevals.aa.ufl.edu](https://gatorevals.aa.ufl.edu/students/) |
-| GatorLink | The UF identity behind all of the above | **(UF)** [UF GatorLink ID](https://education.ufl.edu/technology/uf-gatorlink-id/) |
+| GatorLink | The UF identity behind all of the above | **(UF)** [UF GatorLink ID](https://education.ufl.edu/technology-1/uf-gatorlink-id/) |
 
 ## Level 4 — UF Research Computing / HPC scale
 
