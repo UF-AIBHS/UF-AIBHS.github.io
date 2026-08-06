@@ -22,7 +22,7 @@ cat >> _site/stylesheets/extra.css <<'EOF'
 }
 .md-header__button.md-logo img {
   width: auto !important;
-  height: 1.6rem !important;
+  height: 2rem !important;
 }
 /* Material vertically centers the (single-line) title by setting
  * line-height equal to the element's own height, all the way down
@@ -31,16 +31,17 @@ cat >> _site/stylesheets/extra.css <<'EOF'
  * centering breaks: line-height alone (height left at the old 48px)
  * left the text sitting at the top of its box instead of centered,
  * since with a shorter line-height than its container the text just
- * flows from the top like normal block content. */
+ * flows from the top like normal block content. This height must also
+ * match the logo's height above — that's what keeps them aligned. */
 .md-header__title,
 .md-header__title .md-header__ellipsis,
 .md-header__title .md-header__topic,
 .md-header__title .md-ellipsis {
-  height: 1.6rem !important;
-  line-height: 1.6rem !important;
+  height: 2rem !important;
+  line-height: 2rem !important;
 }
 .md-header__title {
-  font-size: 1.05rem;
+  font-size: 1.3rem;
 }
 .md-header__button.md-logo ~ .md-header__title {
   margin-left: 0.5rem;
