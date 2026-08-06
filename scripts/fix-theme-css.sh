@@ -165,5 +165,21 @@ body, .md-typeset, .md-header, .md-nav, .md-tabs {
   font-weight: 400;
   letter-spacing: normal;
   color: var(--md-typeset-a-color);
+  margin-top: 0.625em;
+  margin-bottom: 0;
+}
+.md-nav--primary .md-nav__item--section:first-of-type > .md-nav__link,
+.md-nav--primary .md-nav__item--section:first-of-type > label.md-nav__link {
+  margin-top: 0.625em;
+}
+
+/* Material's own base CSS also gives every `.md-nav__item--section`
+ * wrapper (not just marimo-book's label) a 1.25em top+bottom margin,
+ * stacking with the link's own margin-top above and producing a bigger
+ * gap around section headers than between plain page links, which have
+ * no item-level margin at all. Zero it out so every top-level nav item
+ * spaces the same way, driven only by the link's margin-top. */
+.md-nav__item--section {
+  margin: 0;
 }
 EOF
