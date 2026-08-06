@@ -62,8 +62,6 @@ toc:
         title: Important Dates and Policies
       - file: content/documents/faculty-handbook/working-reference.md
         title: Working Reference (Word doc)
-  - file: content/documents/orientation/index.md
-    title: Orientation
   - file: content/resources.md
     title: Software Index
   - file: content/datasets.md
