@@ -11,7 +11,12 @@ Richard McElreath — Max Planck Institute for Evolutionary Anthropology
 
 A talk given to a summer-school audience on open science / research methods.
 
-[![Video thumbnail](../../images/extra-resources/software-engineering/video-amateur-software-dev.jpg)](https://www.youtube.com/watch?v=8qzVV7eEiaI)
+<div style="position: relative; padding-bottom: 56.25%; height: 0; max-width: 100%;">
+  <iframe src="https://www.youtube.com/embed/8qzVV7eEiaI" title="YouTube video player"
+    style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"
+    frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</div>
 
 ## 2. The Core Analogy: Science Needs "Continuous Integration"
 
