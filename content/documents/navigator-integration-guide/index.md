@@ -17,6 +17,7 @@ AIBHS students working with Claude through UF's Navigator proxy should use one o
 Its sections:
 
 - [How Navigator's Proxy Works](how-navigators-proxy-works.md)
+- [Getting a Navigator API Key](getting-an-api-key.md)
 - [The .env Pattern](env-pattern.md)
 - [The claude-litellm Shell Script](claude-litellm-script.md)
 - [Using Claude Code](using-claude-code.md)

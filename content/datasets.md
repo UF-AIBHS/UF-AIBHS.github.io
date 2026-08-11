@@ -65,7 +65,7 @@ this writing. A few things worth knowing:
 
 ## Subsampled & Partial Datasets
 
-Everything else in this folder is the complete dataset as published. Two are not, for different reasons: one was cut down to a random sample of rows, the other only has a slice of a much bigger program pulled in. Worth flagging both explicitly so nobody assumes what's here is the whole thing.
+Everything else in this folder is the complete dataset as published. Two are not, for different reasons: one was cut down to a random sample of rows, the other only has a slice of a much bigger program pulled in. Both are called out explicitly below so nobody mistakes either for the complete dataset.
 
 | Folder | Original size | Size present here | What's missing and why |
 |---|---|---|---|

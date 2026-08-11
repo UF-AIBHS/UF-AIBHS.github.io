@@ -1,0 +1,87 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 560" font-family="-apple-system, Helvetica, Arial, sans-serif">
+  <rect width="1000" height="560" fill="#ffffff"/>
+
+  <!-- Top bar -->
+  <rect x="0" y="0" width="1000" height="56" fill="#ffffff" stroke="#e5e7eb" stroke-width="1"/>
+  <circle cx="45" cy="28" r="9" fill="none" stroke="#6b7280" stroke-width="2"/>
+  <text x="70" y="24" font-size="14" font-weight="700" fill="#111827">NaviGator AI</text>
+  <text x="70" y="40" font-size="14" font-weight="700" fill="#111827">Gateway</text>
+  <text x="600" y="33" font-size="13" fill="#374151">Docs</text>
+  <text x="660" y="33" font-size="13" fill="#374151">Blog</text>
+  <rect x="890" y="14" width="60" height="28" rx="6" fill="#f3f4f6"/>
+  <circle cx="965" cy="28" r="14" fill="#e5e7eb"/>
+  <path d="M965 20 a6 6 0 1 0 0.01 0 M955 36 q10 -10 20 0" fill="none" stroke="#9ca3af" stroke-width="2"/>
+  <rect x="905" y="46" width="70" height="10" rx="3" fill="#d1d5db"/>
+  <text x="908" y="54" font-size="8" fill="#9ca3af">[UF account]</text>
+
+  <!-- Sidebar -->
+  <rect x="0" y="56" width="220" height="504" fill="#fafafa" stroke="#e5e7eb" stroke-width="1"/>
+  <text x="20" y="86" font-size="11" font-weight="700" letter-spacing="1" fill="#9ca3af">AI GATEWAY</text>
+  <rect x="10" y="98" width="200" height="30" rx="6" fill="#eef2ff"/>
+  <text x="24" y="118" font-size="13" font-weight="600" fill="#4338ca">Virtual Keys</text>
+  <text x="24" y="152" font-size="13" fill="#374151">Playground</text>
+  <text x="24" y="184" font-size="13" fill="#374151">Models + Endpoints</text>
+  <text x="24" y="216" font-size="13" fill="#374151">Agentic</text>
+  <text x="24" y="248" font-size="13" fill="#374151">MCP Servers</text>
+  <text x="24" y="280" font-size="13" fill="#374151">Guardrails</text>
+  <text x="24" y="312" font-size="13" fill="#374151">Tools</text>
+  <text x="20" y="350" font-size="11" font-weight="700" letter-spacing="1" fill="#9ca3af">OBSERVABILITY</text>
+  <text x="24" y="376" font-size="13" fill="#374151">Usage</text>
+  <text x="24" y="404" font-size="13" fill="#374151">Logs</text>
+  <text x="24" y="432" font-size="13" fill="#374151">Guardrails Monitor</text>
+
+  <!-- Main content -->
+  <rect x="252" y="90" width="170" height="38" rx="6" fill="#6366f1"/>
+  <text x="278" y="114" font-size="13" font-weight="600" fill="#ffffff">+ Create New Key</text>
+
+  <rect x="252" y="146" width="80" height="30" rx="6" fill="none" stroke="#d1d5db" stroke-width="1"/>
+  <text x="264" y="166" font-size="12" fill="#374151">Filters</text>
+  <rect x="340" y="146" width="120" height="30" rx="6" fill="none" stroke="#d1d5db" stroke-width="1"/>
+  <text x="352" y="166" font-size="12" fill="#374151">Reset Filters</text>
+
+  <text x="252" y="205" font-size="12" fill="#6b7280">Showing 1 - 50 of 211 results</text>
+  <rect x="460" y="188" width="70" height="26" rx="6" fill="none" stroke="#d1d5db" stroke-width="1"/>
+  <text x="470" y="205" font-size="12" fill="#374151">Fetch</text>
+
+  <text x="850" y="205" font-size="12" fill="#6b7280">Page 1 of 5</text>
+  <rect x="700" y="188" width="70" height="26" rx="6" fill="#f3f4f6"/>
+  <text x="708" y="205" font-size="11" fill="#9ca3af">Previous</text>
+  <rect x="900" y="188" width="50" height="26" rx="6" fill="#111827"/>
+  <text x="912" y="205" font-size="11" fill="#ffffff">Next</text>
+
+  <!-- table -->
+  <rect x="252" y="230" width="698" height="34" fill="#f9fafb" stroke="#e5e7eb"/>
+  <text x="900" y="251" font-size="12" font-weight="600" fill="#374151">Created At</text>
+  <g fill="#e5e7eb">
+    <rect x="252" y="264" width="698" height="34"/>
+    <rect x="252" y="302" width="698" height="34" fill="#f3f4f6"/>
+    <rect x="252" y="336" width="698" height="34"/>
+  </g>
+  <text x="900" y="286" font-size="11" fill="#6b7280">8/9/2026</text>
+  <text x="900" y="324" font-size="11" fill="#6b7280">8/9/2026</text>
+  <text x="900" y="358" font-size="11" fill="#6b7280">8/9/2026</text>
+
+  <!-- Callouts -->
+  <circle cx="110" cy="113" r="13" fill="#0021A5"/>
+  <text x="110" y="118" font-size="13" font-weight="700" fill="#ffffff" text-anchor="middle">1</text>
+
+  <circle cx="337" cy="90" r="13" fill="#0021A5"/>
+  <text x="337" y="95" font-size="13" font-weight="700" fill="#ffffff" text-anchor="middle">2</text>
+
+  <circle cx="596" cy="230" r="13" fill="#0021A5"/>
+  <text x="596" y="235" font-size="13" font-weight="700" fill="#ffffff" text-anchor="middle">3</text>
+
+  <!-- Legend -->
+  <rect x="0" y="470" width="1000" height="90" fill="#f9fafb" stroke="#e5e7eb"/>
+  <circle cx="30" cy="492" r="10" fill="#0021A5"/>
+  <text x="30" y="496" font-size="10" font-weight="700" fill="#ffffff" text-anchor="middle">1</text>
+  <text x="50" y="496" font-size="12" fill="#111827">Virtual Keys — where every key you own lives, this course starts here.</text>
+
+  <circle cx="30" cy="516" r="10" fill="#0021A5"/>
+  <text x="30" y="520" font-size="10" font-weight="700" fill="#ffffff" text-anchor="middle">2</text>
+  <text x="50" y="520" font-size="12" fill="#111827">+ Create New Key — opens the Key Ownership dialog (see next screen).</text>
+
+  <circle cx="30" cy="540" r="10" fill="#0021A5"/>
+  <text x="30" y="544" font-size="10" font-weight="700" fill="#ffffff" text-anchor="middle">3</text>
+  <text x="50" y="544" font-size="12" fill="#111827">Your existing keys — only creation date shows here; the key value itself is never shown again after creation.</text>
+</svg>

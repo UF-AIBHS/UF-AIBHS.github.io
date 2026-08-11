@@ -42,6 +42,8 @@ toc:
         title: Importing from a Previous Course
       - file: content/documents/canvas-resources/external-tools-overview.md
         title: External Tools
+      - file: content/documents/canvas-resources/faqs.md
+        title: Canvas FAQs
   - section: Faculty Handbook
     children:
       - file: content/documents/faculty-handbook/index.md
@@ -58,8 +60,6 @@ toc:
         title: Semester Timeline
       - file: content/documents/faculty-handbook/important-dates.md
         title: Important Dates and Policies
-      - file: content/documents/faculty-handbook/working-reference.md
-        title: Working Reference (Word doc)
   - file: content/resources.md
     title: Software Index
   - file: content/datasets.md
@@ -100,6 +100,8 @@ toc:
         title: Overview
       - file: content/documents/navigator-integration-guide/how-navigators-proxy-works.md
         title: How Navigator's Proxy Works
+      - file: content/documents/navigator-integration-guide/getting-an-api-key.md
+        title: Getting a Navigator API Key
       - file: content/documents/navigator-integration-guide/env-pattern.md
         title: The .env Pattern
       - file: content/documents/navigator-integration-guide/claude-litellm-script.md

@@ -190,4 +190,19 @@ body, .md-typeset, .md-header, .md-nav, .md-tabs {
 .md-nav__item--section {
   margin: 0;
 }
+
+/* Sidebar and TOC links were plain body-color text at rest (only the
+ * active page got the link color), so most of the site's navigation
+ * didn't read as clickable. Color every actual navigational anchor
+ * (`a.md-nav__link`) with the link color; scoped to the `a` tag so it
+ * skips the `<label>` elements used purely as section expand/collapse
+ * toggles, which don't navigate anywhere and shouldn't look like links.
+ * Dark mode reuses the lighter #7086ff from the active-link fix above,
+ * for the same contrast reason (raw UF blue reads too dark on near-black). */
+a.md-nav__link:not(.md-nav__link--active) {
+  color: var(--md-typeset-a-color);
+}
+[data-md-color-scheme="slate"] a.md-nav__link:not(.md-nav__link--active) {
+  color: #7086ff;
+}
 EOF

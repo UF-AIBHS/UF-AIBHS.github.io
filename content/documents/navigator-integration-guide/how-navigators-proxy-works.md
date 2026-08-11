@@ -17,9 +17,9 @@ Claude models. From the client's perspective this is invisible — the proxy tra
 
 ## Authentication
 
-Every request needs a bearer token in the `Authorization` header. Navigator keys are issued
-through UF IT's request process. Store the key in a project-local `.env` file (see
-[The .env Pattern](env-pattern.md)).
+Every request needs a bearer token in the `Authorization` header. Navigator keys are self-service
+through UF IT's dashboard — see [Getting a Navigator API Key](getting-an-api-key.md). Store the
+key in a project-local `.env` file (see [The .env Pattern](env-pattern.md)).
 
 ## Which Models Are Available to Your Key
 
