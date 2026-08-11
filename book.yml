@@ -94,6 +94,24 @@ toc:
         title: "Python Expert Talk (video)"
       - file: content/extra-resources/environment-setup/marimo-reactive-notebooks.md
         title: marimo Notebooks
+  - section: Navigator Integration Guide
+    children:
+      - file: content/documents/navigator-integration-guide/index.md
+        title: Overview
+      - file: content/documents/navigator-integration-guide/how-navigators-proxy-works.md
+        title: How Navigator's Proxy Works
+      - file: content/documents/navigator-integration-guide/env-pattern.md
+        title: The .env Pattern
+      - file: content/documents/navigator-integration-guide/claude-litellm-script.md
+        title: The claude-litellm Shell Script
+      - file: content/documents/navigator-integration-guide/using-claude-code.md
+        title: Using Claude Code
+      - file: content/documents/navigator-integration-guide/vscode-cline.md
+        title: VS Code + Cline
+      - file: content/documents/navigator-integration-guide/cursor-not-recommended.md
+        title: Cursor — Tested and Not Recommended
+      - file: content/documents/navigator-integration-guide/quick-reference.md
+        title: Quick Reference
   - section: Software Engineering Practices for Data Science
     children:
       - file: content/extra-resources/software-engineering/index.md
