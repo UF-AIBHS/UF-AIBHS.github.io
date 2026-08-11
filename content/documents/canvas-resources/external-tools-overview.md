@@ -16,7 +16,9 @@
 
 ### Kaizen
 
-*(Content forthcoming.)*
+Kaizen is an automated feedback and grading tool in Canvas.
+
+[Tutorial: How to set up Kaizen in Canvas](https://mediasite.video.ufl.edu/Mediasite/Play/b5b9a76d445746bead9c809d3d675be71d)
 
 ## Proctoring
 
