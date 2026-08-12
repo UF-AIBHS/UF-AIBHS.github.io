@@ -2,7 +2,7 @@
 # The .env Pattern
 
 Every AIBHS project that talks to Navigator uses a local `.env` file to hold the base URL and API
-key. The file is git-ignored (per the Security Guidelines) and lives at the project root, alongside
+key. The file is git-ignored (per [Keeping Secrets Out of Git](../../extra-resources/software-engineering/keeping-secrets-out-of-git.md)) and lives at the project root, alongside
 the tool that reads it.
 
 ## The File

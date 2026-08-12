@@ -43,3 +43,5 @@ echo ".env" >> .gitignore
 
 - Add it before your first commit, not after
 - Combine with [gitignore.io's Python template](git-github-desktop.md#20-generate-one-instead-of-writing-it)
+
+See [The .env Pattern](../../documents/navigator-integration-guide/env-pattern.md) for how AIBHS projects apply this when talking to Navigator.
