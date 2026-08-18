@@ -28,7 +28,7 @@ settings.
 - Email: ic3-center@ufl.edu
 - Address: 1345 Center Drive, Gainesville, FL 32610
 
-## AIBHS Fall 2025 Courses
+## AIBHS Fall 2026 Courses
 
 | Course | Teaching Staff | Link |
 |---|---|---|
