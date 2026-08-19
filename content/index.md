@@ -30,14 +30,14 @@ settings.
 
 ## AIBHS Fall 2026 Courses
 
-| Course | Teaching Staff | Link |
-|---|---|---|
-| CAI 5720: Fundamentals of AI in Medicine I | — | — |
-| CAI 5735: Applied Data Science in Health (Fall 2026) | Ashish Aggarwal, Scott Siegel | — |
-| CAI 5724: AI in Health Design Studio | — | — |
-| CAI 5731: Biostatistics for AI | — | — |
-| CAI 6734: Applied Generative AI in Medicine | — | — |
-| CAI 6910: Supervised Research - Onboarding | — | — |
+| Course | Teaching Staff |
+|---|---|
+| CAI 5720: Fundamentals of AI in Medicine I | — |
+| CAI 5735: Applied Data Science in Health (Fall 2026) | Ashish Aggarwal, Scott Siegel |
+| CAI 5724: AI in Health Design Studio | — |
+| CAI 5731: Biostatistics for AI | — |
+| CAI 6734: Applied Generative AI in Medicine | — |
+| CAI 6910: Supervised Research - Onboarding | — |
 
 ---
 
