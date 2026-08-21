@@ -217,4 +217,16 @@ a.md-nav__link:not(.md-nav__link--active) {
 [data-md-color-scheme="slate"] .md-typeset a:not(.md-button):not(.headerlink):active {
   color: #7086ff;
 }
+
+/* Same raw-UF-blue contrast problem again, this time on titles: the page
+ * <h1> and the header bar's site title both use --md-primary-fg-color for
+ * their text color, which is the same hardcoded #0021A5 in slate. h2/h3
+ * already use --md-default-fg-color (no fix needed there). Same #7086ff
+ * used for links above, so titles and links read as one consistent
+ * "brand blue" in dark mode instead of two different broken navies. */
+[data-md-color-scheme="slate"] .md-typeset h1,
+[data-md-color-scheme="slate"] .md-header__topic .md-ellipsis,
+[data-md-color-scheme="slate"] .md-header__topic > .md-header__button + .md-ellipsis {
+  color: #7086ff;
+}
 EOF
