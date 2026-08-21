@@ -205,4 +205,16 @@ a.md-nav__link:not(.md-nav__link--active) {
 [data-md-color-scheme="slate"] a.md-nav__link:not(.md-nav__link--active) {
   color: #7086ff;
 }
+
+/* Same raw-UF-blue contrast problem as the sidebar links above, but for
+ * body/prose hyperlinks: they resolve to --md-typeset-a-color at rest and
+ * --md-primary-fg-color on hover/focus/active, both hardcoded to #0021A5
+ * for the slate scheme too by book.yml's palette injection. Reuse the
+ * same #7086ff already established as the readable dark-mode equivalent. */
+[data-md-color-scheme="slate"] .md-typeset a:not(.md-button):not(.headerlink),
+[data-md-color-scheme="slate"] .md-typeset a:not(.md-button):not(.headerlink):hover,
+[data-md-color-scheme="slate"] .md-typeset a:not(.md-button):not(.headerlink):focus,
+[data-md-color-scheme="slate"] .md-typeset a:not(.md-button):not(.headerlink):active {
+  color: #7086ff;
+}
 EOF
