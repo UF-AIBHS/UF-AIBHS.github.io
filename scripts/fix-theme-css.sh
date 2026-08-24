@@ -218,6 +218,17 @@ a.md-nav__link:not(.md-nav__link--active) {
   color: #7086ff;
 }
 
+/* Material has a separate, more specific rule for inline `code` sitting
+ * inside a link (e.g. the datasets table's folder-name cells, formatted
+ * as `` [`folder_name/`](url) ``): `.md-typeset a code { color:
+ * var(--md-typeset-a-color) }`. That rule reads the CSS variable directly
+ * rather than inheriting the link color fixed above, so it still resolved
+ * to the raw invisible #0021A5 even after that fix. Same #7086ff, same
+ * selector shape as Material's own rule so it wins on specificity. */
+[data-md-color-scheme="slate"] .md-typeset a code {
+  color: #7086ff;
+}
+
 /* Same raw-UF-blue contrast problem again, this time on titles: the page
  * <h1> and the header bar's site title both use --md-primary-fg-color for
  * their text color, which is the same hardcoded #0021A5 in slate. h2/h3
